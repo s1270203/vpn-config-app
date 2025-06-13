@@ -4,19 +4,19 @@
 
 ---
 
-##　主な機能
+## 主な機能
 - WireGuard構成ファイルの表示
 - QRコードによる構成情報の配布
 - PC・スマホ両対応のシンプルなUI
 
 ---
 
-##　使用技術
+## 使用技術
 - **React**（UI構築）
 - **Vite**（ビルドツール）
 - **Docker**（開発環境）
 - **AWS S3 + CloudFront**（QRコード配布のホスティング想定）
-- 
+
 ※ 現在はコストの都合によりAWS上での公開環境は削除しています。
 
 ---
@@ -64,7 +64,7 @@ AWS EC2 上に自分で構築した WireGuard VPN サーバーに接続するた
 
 ### 1. リポジトリをクローン
 ```bash
-git clone https://github.com/yourname/vpn-config-app.git
+git clone https://github.com/s1270203/vpn-config-app.git
 cd vpn-config-app
 ```
 
