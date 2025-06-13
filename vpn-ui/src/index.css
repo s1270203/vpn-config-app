@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* グローバルに背景色＆文字色を適用 */
+@layer base {
+  body {
+    @apply bg-gray-900 text-white;
+  }
+}
+html,body,#root {
+  height: 100%;
+  margin: 0;
+  overflow: auto;
+}
